@@ -182,6 +182,13 @@ body {
     .box3 {
         margin-top:60px;
     }
+    .price4 {
+        background-color: #3221ce;
+        color: white;
+    }
+    .price4 .feature {
+        color: white;
+    }
 }
 
 /* responsiveness on tablet */
@@ -229,7 +236,7 @@ body {
     }
     .box2 {
         flex: 1 1 400px;
-        margin-top: 70px;
+        margin-top: 100px;
         margin-left: 20px;
     }
     .box3 {
