@@ -167,20 +167,23 @@ body {
 
 }
 .price:hover {
+    background-color: #000000;
+}
+.price:hover li {
+    color: #ffffff;
+}
+.price:hover a {
+    color: #000000;
+}
+.price:hover .button {
+    border: 1px solid black;
+}
+.price3 {
     background-color: #3221ce;
 }
-.price:hover .header {
-    color: #ffffff;
+.price3 li {
+    color: rgb(255, 255, 255);
 }
-.price:hover .pricer {
-    color: #ffffff;
-}
-.price:hover .description {
-    color: #ffffff;
-}
-.price:hover .feature {
-    color: #ffffff;
-} 
 
 /* responsiveness on tablet */
 
@@ -200,6 +203,12 @@ body {
     }
     .price4 .feature {
         color: white;
+    }
+    .price3 {
+        background-color: #ffffff;
+    }
+    .price3 li {
+        color: rgb(0, 0, 0);
     }
 }
 
