@@ -117,7 +117,7 @@ body {
     display: flex;
 }
 .price {
-    flex: 1;
+    flex: 1 1;
     list-style: none;
     border: 1px solid rgb(255, 255, 255);
     padding: 20px 30px;
@@ -198,6 +198,7 @@ body {
         margin-top:60px;
     }
     .price4 {
+        flex: 0 1 33.33%;
         background-color: #3221ce;
         color: white;
     }
@@ -226,6 +227,20 @@ body {
     }
     .box3 {
         margin-top:60px;
+    }
+}
+
+/* responsiveness on tablet */
+
+@media (max-width:643px) {
+    .box1 {
+        flex: 2 1;
+    }
+    .box3 {
+        margin-top: 90px;
+    }
+    .price4 {
+        flex: 1 1;
     }
 }
 
